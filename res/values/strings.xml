@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+   
+    <string name="app_name">GPKP</string>
+    <string-array name="operation_array">
+        <item>History</item>
+        <item>Introduction</item>
+        <item>Academics</item>
+        <item>Infrastructure</item>
+         <item>Registration</item>
+        <item>Exam Result</item>
+        <item>Photos</item>
+        <item>Facilities</item>
+        <item>About Us</item>
+        <item >Created By</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_home">GO to home</string>
+    <string name="action_menu">GO to menu</string>
+    
+    <string name="curriculum">Click here to download Curriculum</string>
+    <string name="history">Government Polytechnic, Kolhapur was established in 1961 with Civil Engineering and Mechanical Engineering Diploma Programmes.Started in a small rented building, the Institute was soon Shifted </string>
+    <string name="history1">to its independent campus of about 12 hectors covering academic building and hostels.The Institute has the privilege of being the First Academically Autonomous Government Polytechnic in the state. Being rich with faculty of high qualifications, modernized laboratories and infrastructure, the Institute has progressed serving the industry and society.</string>
+     
+    <string name="history2">Committed to the noble mission of developing technicians of high standards of excellence, the Institute is crossing broader and newer horizons of progress keeping pace with the changing global world.</string>
+     
+    <string name="intro1">Committed to the noble mission of developing technicians meeting high standards of excellence for the need of the industry, Government Polytechnic, Kolhapur was established in 1961. At present, the Institute caters diploma programmers in Civil Engineering, Mechanical Engineering, Electrical Engineering, Industrial Electronics, sugar Manufacturing, Electronics and Telecommunication, Metallurgy and Information Technology.</string>
+     
+    <string name="intro2">The Institute has the privilege of being the First Academically Autonomous Government Polytechnic in the state.</string>
+     <string name="intro3">The alumni either proceed for higher education or get employed in renowned industries through regular campus interviews organized by the Training and Placement Cell of the Institute. As a National level appreciation of education of the Institute, four programmes were awarded 3 years accreditation by National Board of Accreditation (NBA), New Delhi in December 2003.</string>
+     <string name="academics">Click here to download Academics Calender</string>
+     <string name="library">With its modern collection, knowledge resources and innovative information services fulfills an essential role for students, faculty and the surrounding community in their intellectual persuits. </string>
+	 <string name="library1">The library is rich in books, periodicals, technical magazines, news papers, non-technical magazines, dictionaries, reference books, Technical video cassettes, encyclopedias and handbooks.</string>
+     <string name="scholer">SCHOLORSHIP / CONCESSION SCHEMES
+	  </string>
+	  <string name="scholer1">1) National Merit Scholarship (NMS)</string>
+   	 <string name="scholer2">2) Open Merit Scholarship</string>						
+ 		<string name="scholer3">3) Scholarship for SC/ST/VJ/NT/SBC/OBC category students (under GOI)</string>					
+ 		<string name="fee">FEE CONSESSIONS
+	  </string>
+	  <string name="fee1">1) Economically Backward Class concession (EBC)</string>
+	  <string name="fee2">2) For the wards of Ex-Serviceman (DSP)</string>
+	   <string name="fee3">3) For the wards of Primary Teachers (PTC)</string>
+	   <string name="fee4">4) For the wards of Secondary Teachers (STC)</string>  
+	   <string name="fee5">5) Tuition Fee Waiver for Meritorious Girls, EWS (Economically Weaker Section) and Physically Handicapped.</string>
+	   <string name="studstore">Student Consumer Store</string>
+	   <string name="studstore1">In order that the student gets commonly required stationary and learning material under one roof, at concessional rates, co-operative store is run in the campus of the institute by the students.  </string>
+	   <string name="studstore2"> The store is registered with co-operative department of Government of Maharashtra. The material like stationary, Journal files, calculators, drawing sheets, laboratory manuals etc. are available in the store. </string>
+	   <string name="studstore3">An elected body of students representatives with Principal as ex officio president looks after the working of store.</string>
+	   <string name="infra">The Institute has a naturally beautiful campus full of greenery and elegant topography and developed new Constructed Buildings : </string>   
+	  <string name="infra1"> 1) A two storied main Academic building  4700 Sq.m</string>
+	  <string name="infra2"> 2) Newly constructed  WB Complex	       4500 Sq.m</string>
+	  <string name="infra3"> 3) Workshop building	                   1170 Sq.m </string>
+	  <string name="infra4"> 6)Sugar Technology Bldg.	               1260 Sq.m </string>
+	  <string name="infraw1">Newly constructed Buildings: </string>
+	   <string name="infraw2">   4)IT Building:	        4296 Sq.m </string>
+	    <string name="infraw3">  5)Library Building:	1155 Sq.m  </string>
+	     <string name="infraw4"> 6)Ladies Hostel:	    1614 Sq.m </string>
+	     <string name="vision">Vision and Mission</string>
+	     <string name="vision1">To develop A flexible and efficient technician education system that caters to ever increasing complex expectations of global technological developments in tune with the policies, where in the alumni will achieve international standards of excellence to become successful entrepreneurs or render quality services, eventually contributing to national development</string>
+	    <string name="highlight">Highlights and Achievements</string>
+	    <string name="highlight1">1)FIRST Government Polytechnic in Maharashtra to have been awarded Autonomy  (in 1992).</string>
+	    <string name="highlight2">2)A total student intake of  984  [ 820  for First  Year Diploma) + 164 for Direct Admission to Second Year Diploma] in TWO SHIFTS</string>
+	  <string name="highlight3">  3)Dhatu Tantra Prabodhini under Community College Scheme</string>
+	   <string name="highlight4"> 4)MPSC Selected highly qualified and trained faculty supported by faculty on contract basis</string>
+	  <string name="highlight5">5)Seven teachers of the Institute awarded as BEST TEACHERS by Government of Maharashtra so far.</string>
+	  <string name="highlight6">6)Spacious and naturally beautiful campus of a land of 34 acres with rich building infrastructure including hostels.</string>
+	  <string name="highlight7">7)Modernized laboratories</string>
+	  <string name="examresult">Welcome to Online Exam Result</string>
+	  <string name="studreg">Welcome to online Course Registration </string>
+	  
+	  <string name="hostel">The institution provides hostel accommodations to the students. The residential hostel is managed by a teacher-warden appointed by the Principal.</string>
+	  <string name="bhostel">Boys Hostel : Capacity :180 students, No. of Rooms : 72, No. of Guest Rooms : 06</string>
+	  <string name="ghostel">Girls Hostel : A girls hostel of capacity 100 students is under construction.</string>
+	  <string name="title">GPKP app alpha</string>
+	  <string name="create">Created By:</string>
+	  <string name="first">     Mr.Nitesh Vishwas Patil</string>
+	  <string name="second">    Mr.Kumar Mahadayya Swami</string>
+	  <string name="third">     Mr.Prajyot Prakash Gurav</string>
+	  <string name="fourth">    Mr.Suraj Sunil Bhorkar</string>
+	  <string name="guid">Under the Guidence of :</string>
+	  <string name="mamname">Prof. P.V.KOLE</string>
+	  <string name="dept">DEPARTMENT OF INFORMATION TECHNOLOGY</string>
+	  <string name="clgname">GOVERNMENT POLYTECHNIC KOLHAPUR</string>
+	  <string name="year">YEAR</string>
+	  <string name="value">2015-16</string>
+	      
+</resources>
+
+
+
+ 
+ 
+

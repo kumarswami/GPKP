@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background4">
+    
+    <ViewFlipper 
+        android:id="@+id/vf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Old Building"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gpkpold3"
+                 android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+            
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Main Building"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gpkpnewim3" 
+				 android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />           
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Workshop"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/workshop11" 
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT Buiding"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gpkpnewim3" 
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            
+        </LinearLayout> 
+        
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Library"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/libraryimg2" 
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            
+        </LinearLayout> 
+         
+    </ViewFlipper>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infra"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infra1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"/>
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infra2"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"/>
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infra3"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"/>
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infraw2"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"/>
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infraw3"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"/>
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infra4"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"/>
+	
+	
+	
+    
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background3">
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gpkplogo"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <ProgressBar
+        android:id="@+id/progressbar1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/progressBarStyle"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Loading...."
+        android:layout_marginLeft="130dp"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"/>
+    
+
+</LinearLayout>

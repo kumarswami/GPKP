@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menuwall" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPKP"
+        android:textSize="35dp"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/ibtnhis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuhistimg"
+         android:layout_marginLeft="30dp" />
+    </LinearLayout>
+
+     <ImageButton
+          android:id="@+id/ibtnintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuintroimg"
+        android:layout_marginLeft="140dp"/>
+     <ImageButton
+         android:id="@+id/ibtnac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuacaimg"
+        android:layout_marginLeft="140dp"/>
+     <ImageButton
+         android:id="@+id/ibtninfra" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuinfraimg"
+        android:layout_marginLeft="140dp"/>
+     <ImageButton
+         android:id="@+id/ibtnreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuregimg"
+        android:layout_marginLeft="140dp"/>
+     <ImageButton
+           android:id="@+id/ibtnexre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuexamumg"
+        android:layout_marginLeft="140dp"/>
+     <ImageButton
+          android:id="@+id/ibtnphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuphotoimg"
+        android:layout_marginLeft="140dp"/>
+     <ImageButton
+           android:id="@+id/ibtnfac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menufacimg"
+        android:layout_marginLeft="140dp"/>
+     <ImageButton
+         android:id="@+id/ibtncreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menucreateimg"
+        android:layout_marginLeft="140dp"/>
+
+</LinearLayout>

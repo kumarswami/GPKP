@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="appgpkp.kp.gpkp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Startpage.Startpage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Startpage.Homepage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOMEPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Startpage.menupage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENUPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Startpage.newmenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEWMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.History.History"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HISTORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.History.history1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HISTORY1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Introduction.Introduction"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INTRODUCTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Introduction.introduction1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                
+                
+                <action android:name="android.intent.action.INTRODUCTION1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Academics.Academics"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACADEMICS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Academics.Curriculum"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CURRICULUM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Academics.AcademicsCalender"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACADEMICSCALENDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Registration.Registration"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTRATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Infrastructure.Infrastructure"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INFRASTRUCTURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.ExamResult.ExamResult"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EXAMRESULT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Photos.Photos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHOTOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+      
+        <activity
+            android:name="appgpkp.kp.gpkp.Facilities.Facilities"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FACILITIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Facilities.Library"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LIBRARY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Facilities.library1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LIBRARY1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Facilities.Hostel"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOSTEL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Facilities.Scholership"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCHOLERSHIP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Facilities.StudentConsumerStore"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.STUDENTCONSUMERSTORE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="appgpkp.kp.gpkp.Facilities.studentconstore"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.STUDENTCONSTORE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+               
+        <activity
+            android:name="appgpkp.kp.gpkp.AboutUs.AboutUs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+               
+         <activity
+            android:name="appgpkp.kp.gpkp.AboutUs.highlights"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HIGHLIGHTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="appgpkp.kp.gpkp.CreatedBy.CreatedBy"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATEDBY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+    </application>
+
+</manifest>

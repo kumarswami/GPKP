@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+       
+     <item android:id="@+id/action_menu"
+          android:icon="@drawable/menuaction"
+     		android:title="@string/action_menu"
+          android:showAsAction="always"/>
+     
+    <item android:id="@+id/action_home"
+          android:icon="@drawable/home"
+          android:title="@string/action_home"
+          android:showAsAction="always"/>
+       
+
+</menu>

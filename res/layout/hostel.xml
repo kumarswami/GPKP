@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background3">
+    
+    <ViewFlipper 
+        android:id="@+id/vf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boys Hostel"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bhostel1"
+                 
+                android:layout_marginRight="5dp" 
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"/>
+            
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+                    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Girls Hostel"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ghostel1" 
+				 android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />           
+        </LinearLayout>
+    </ViewFlipper>
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hostel"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"/>
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bhostel"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/primary_text_dark_nodisable"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ghostel"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+         android:textColor="@android:color/primary_text_dark_nodisable"/>
+	</LinearLayout>
